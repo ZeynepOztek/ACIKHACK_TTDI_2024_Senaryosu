@@ -1,2 +1,6 @@
 streamlit
 pandas
+tensorflow
+openpyxl
+fpdf
+python-docx
