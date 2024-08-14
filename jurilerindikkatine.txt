@@ -1,8 +1,14 @@
 Sayın Jüri Üyeleri,
-Ben Zeynep Öztek, Kastamonu’dan bir lise öğrencisi olarak, Türkçe Doğal Dil İşleme Senaryo  kategorisinde yer aldım. Projem, Türkçe dilinde duygu analizi ve NER (Named Entity Recognition) üzerineydi. Bu e-posta ile projemin tamamlanma sürecini ve yaşadığımız teknik zorlukları sizinle paylaşmak, ayrıca değerlendirilmeye alınması konusunda destek talep etmek istiyorum.
-Yarışma sürecinin ilk 29 günü boyunca, LSTM modelini denedikten sonraaldığım hatalar dolayısıyla BERT modelini tercih ettim. Ancak, BERT modelinde bilgisayarımda sürekli hatalarla karşılaştım. Yarışmanın son 24 saatinde, çevre takımlardan aldığımız destekle sanal bir ortamda çalışan bir proje oluşturdum. Ancak, bu süreçte FastAPI kodları çeşitli hatalar verdi. Bilgisayarımın yetersizliğinden kaynaklandığı düşünülen bu sorunlar nedeniyle, Kastamonu’ya geri dönüş sağladıktan sonra internet kafede çalışmayı denedim ve Microsoft 126 hatasıyla karşılaştım.
-Sonuç olarak, 14.08.2024 tarihinde hem yerel olarak hem de web servisinde çalışan bir kod elde ettim. Bu uygulama, FastAPI yerine Streamlit kullanılarak geliştirilmiştir. Projemin teknik zorlukları göz önünde bulundurulduğunda, tamamlanması ve işlevselliği oldukça tatmin edicidir. Projeyi tamamlamadaki azmim ve çabam, bu süreçte edindiğim deneyimlerle birlikte projeyi değerlendirilmeniz için uygun gördüğünüz takdirde dikkate alınmasını rica ediyorum.
-Projemde yalnızca internetten öğrendiğim bilgilerden, makalelerden yararlanarak ve sınırlı kaynaklarla bu kodu yazdım. Takım arkadaşlarım E. Şevval Kam ve M. Zeynep Tiryaki’nin desteğiyle bu süreci tamamladık. Projemin, her ne kadar yarışma tarihinden sonra tamamlanmış olsa da, değerlendirilmesinin projede karşılaştığımız teknik zorlukları ve öğrenme sürecimizi yansıtacağına inanıyorum.
+Ben Zeynep Öztek, Kastamonu’dan bir lise öğrencisi olarak, Türkçe Doğal Dil İşleme Senaryo  kategorisinde yer aldım. 
+Projem, Türkçe dilinde duygu analizi ve NER (Named Entity Recognition) üzerineydi. Bu e-posta ile projemin tamamlanma sürecini ve yaşadığımız teknik zorlukları sizinle paylaşmak, 
+ayrıca değerlendirilmeye alınması konusunda destek talep etmek istiyorum.
+Yarışma sürecinin ilk 29 günü boyunca, LSTM modelini denedikten sonraaldığım hatalar dolayısıyla BERT modelini tercih ettim. 
+Ancak, BERT modelinde bilgisayarımda sürekli hatalarla karşılaştım. Yarışmanın son 24 saatinde, çevre takımlardan aldığımız destekle sanal bir ortamda çalışan bir proje oluşturdum. 
+Ancak, bu süreçte FastAPI kodları çeşitli hatalar verdi. Bilgisayarımın yetersizliğinden kaynaklandığı düşünülen bu sorunlar nedeniyle, Kastamonu’ya geri dönüş sağladıktan sonra internet kafede çalışmayı denedim ve Microsoft 126 hatasıyla karşılaştım.
+Sonuç olarak, 14.08.2024 tarihinde hem yerel olarak hem de web servisinde çalışan bir kod elde ettim. Bu uygulama, FastAPI yerine Streamlit kullanılarak geliştirilmiştir.
+Projemin teknik zorlukları göz önünde bulundurulduğunda, tamamlanması ve işlevselliği oldukça tatmin edicidir. Projeyi tamamlamadaki azmim ve çabam, bu süreçte edindiğim deneyimlerle birlikte projeyi değerlendirilmeniz için uygun gördüğünüz takdirde dikkate alınmasını rica ediyorum.
+Projemde yalnızca internetten öğrendiğim bilgilerden, makalelerden yararlanarak ve sınırlı kaynaklarla bu kodu yazdım.
+Takım arkadaşlarım E. Şevval Kam ve M. Zeynep Tiryaki’nin desteğiyle bu süreci tamamladık. Projemin, her ne kadar yarışma tarihinden sonra tamamlanmış olsa da, değerlendirilmesinin projede karşılaştığımız teknik zorlukları ve öğrenme sürecimizi yansıtacağına inanıyorum.
 Yardımlarınız ve anlayışınız için şimdiden teşekkür ederim. Projemin değerlendirilmesi konusunda göstereceğiniz ilgi ve destek benim için büyük bir anlam taşıyacaktır.
 Saygılarımla,
 Zeynep Öztek
