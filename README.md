@@ -68,6 +68,7 @@ pip install streamlit pandas tensorflow openpyxl fpdf python-docx
      ```bash
      streamlit run app.py
      ```
+     ![Ekran görüntüsü 2024-08-14 193457](https://github.com/user-attachments/assets/80dc4cf0-36b2-4d9a-a703-32e0aaac2646)
 
 ## Kullanım
 
