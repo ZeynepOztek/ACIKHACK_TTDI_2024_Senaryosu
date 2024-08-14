@@ -1,8 +1,6 @@
 # BetaVerse_TTDI_Senaryosu
- Takım ID = 562234
- Takım = BetaVerse
- 
- ![What Sould I Read Book Advice Instagram Post](https://github.com/user-attachments/assets/527a0427-3c19-4e1e-ab50-e58609244cef)
+
+![Takım Id 562234](https://github.com/user-attachments/assets/0eb1861f-71bb-40ab-b5ea-4d1d3de0dff4)
 
  
  ## Üyeler
@@ -11,7 +9,7 @@
 •Elif Şevval Kam
 •Zeynep Öztek 
 •Dr.Erman Zurnacı(Danışman)
-• Dr. Merve Ayyüce Kızrak(Mentor) 
+•Dr.Merve Ayyüce Kızrak(Mentor) 
  
  ## Üyelerin Görevleri
  
