@@ -21,8 +21,10 @@ if uploaded_file is not None:
     try:
         # Dosya tipi belirleme ve okuma
         if uploaded_file.name.endswith('.csv'):
-            df = pd.read_csv(uploaded_file)
+            # CSV dosyasını UTF-8 kodlamasıyla oku
+            df = pd.read_csv(uploaded_file, encoding='utf-8')
         elif uploaded_file.name.endswith('.xlsx'):
+            # Excel dosyasını oku
             df = pd.read_excel(uploaded_file)
         else:
             st.error("Desteklenmeyen dosya formatı.")
