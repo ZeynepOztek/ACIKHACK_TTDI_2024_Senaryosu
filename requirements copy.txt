@@ -1,0 +1,6 @@
+Django
+pandas
+tensorflow
+openpyxl  # Excel dosyalarını işlemek için
+python-docx  # DOCX dosyalarını işlemek için
+fpdf  # PDF dosyalarını işlemek için
