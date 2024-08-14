@@ -29,24 +29,65 @@
 
 # Text Classification and Named Entity Recognition (NER) API
 
-Bu proje, Türkçe metinlerde duygu analizi ve isim varlık tanıma (NER) işlemlerini gerçekleştiren bir API sağlar. LightGBM tabanlı çok çıkışlı sınıflandırıcı ve BERT modeli kullanarak metin sınıflandırma ve isim varlık tanıma görevlerini yerine getirir.
-
-## Proje Gereksinimleri
-
-- Python 3.7 veya üzeri
-
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://betaverse.streamlit.app/)
 
-### How to run it on your own machine
+Bu proje, kullanıcıların yorumları sentiment analizine tabi tutarak sonuçları çeşitli formatlarda indirmelerine olanak tanıyan bir Streamlit uygulamasıdır. Uygulama, bir CSV veya Excel dosyasını yükleyerek yorumları analiz eder ve sonuçları PDF veya DOCX formatında indirmeyi sağlar.
 
-1. Install the requirements
+## İçindekiler
 
-   ```
-   $ pip install -r requirements.txt
-   ```
+- [Gereksinimler](#gereksinimler)
+- [Kurulum](#kurulum)
+- [Kullanım](#kullanım)
+- [Fonksiyonlar](#fonksiyonlar)
+- [Dosya Formatları](#dosya-formatları)
 
-2. Run the app
+## Gereksinimler
 
+Bu uygulamanın çalışması için aşağıdaki Python kütüphanelerinin kurulu olması gerekmektedir:
+
+- `streamlit`
+- `pandas`
+- `tensorflow`
+- `openpyxl`
+- `fpdf`
+- `python-docx`
+
+Bu kütüphaneleri yüklemek için aşağıdaki komutu kullanabilirsiniz:
+
+```bash
+pip install streamlit pandas tensorflow openpyxl fpdf python-docx
    ```
-   $ streamlit run streamlit_app.py
-   ```
+## Kurulum
+
+1. **Model ve Tokenizer'ı Yükleyin:**
+   - `entity_sentiment_model.h5` dosyasını ve `tokenizer.pkl` dosyasını proje dizinine yerleştirin.
+
+2. **Kodları Çalıştırın:**
+   - Proje dizininde terminal veya komut satırında şu komutu çalıştırarak Streamlit uygulamasını başlatın:
+
+     ```bash
+     streamlit run app.py
+     ```
+
+## Kullanım
+
+1. **Dosya Yükleyin:**
+   - Uygulama açıldığında, "Dosya yükleyin (CSV, Excel)" düğmesini kullanarak analiz etmek istediğiniz CSV veya Excel dosyasını yükleyin.
+
+2. **Analiz Sonuçlarını Görüntüleyin:**
+   - Yüklenen dosyadaki yorumlar analiz edildikten sonra sonuçlar ekranda gösterilecektir.
+
+3. **Sonuçları İndirin:**
+   - Analiz sonuçlarını PDF veya DOCX formatında indirmek için ilgili düğmeleri kullanın.
+
+## Fonksiyonlar
+
+- **`predict_sentiment(model, tokenizer, text)`**: Verilen metin için sentiment tahmini yapar.
+- **`analyze_sentiments(df)`**: DataFrame'deki yorumları sentiment analizine tabi tutar ve sonuçları içeren yeni bir sütun ekler.
+- **`dataframe_to_pdf(df, output_buffer)`**: Bir DataFrame'i PDF formatına dönüştürür ve belirtilen buffer'a kaydeder.
+- **`dataframe_to_docx(df, output_buffer)`**: Bir DataFrame'i DOCX formatına dönüştürür ve belirtilen buffer'a kaydeder.
+
+## Dosya Formatları
+
+- **CSV:** Yorumlar `comment` sütununda yer almalıdır.
+- **Excel:** Yorumlar `comment` sütununda yer almalıdır.
